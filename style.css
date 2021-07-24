@@ -28,8 +28,8 @@ h2 {
 }
 .content #equal {
   position: relative;
-  bottom: 30px;
-  /* left: 10px; */
+  bottom: 10px;
+  font-size: 30px;
   margin: 20px;
 }
 input {
