@@ -12,17 +12,29 @@
             <h2>TEMPERATURE CONVERSION</h2>
             <div class="content">
             <div>
-                <input type="number" value="0" id="temp1">
-                <p>Celsius</p>
-           
+                <input type="number" value="" id="temp1">
+                <form action="">
+                    <select name="temp" id="dropdown1" onchange="disp()">
+                      <option value="Celsius" class="C" selected>Celsius</option>
+                      <option value="Fahrenheit" class="F">Fahrenheit</option>
+                      <option value="Kelvin" class="K">Kelvin</option>
+                    </select>
+                  </form>
+                <!-- <p>Celsius</p> -->
             </div>
            
             <div id="equal">=</div>
 
             <div>
-                <input type="number" value="32" id="temp2">
-                <p>Fahrenheit</p>
-              
+                <input type="number" value="" id="temp2">
+                <!-- <p>Fahrenheit</p> -->
+                <form action="">
+                    <select name="temp" id="dropdown2" onchange="disp()">
+                        <option value="Celsius" class="C">Celsius</option>
+                        <option value="Fahrenheit" class="F" selected>Fahrenheit</option>
+                        <option value="Kelvin" class="K">Kelvin</option>
+                    </select>
+                  </form>
             </div>
             </div>
         </div>
