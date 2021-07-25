@@ -13,14 +13,6 @@ body {
 h2 {
   font-size: 2rem;
 }
-/* .content p {
-  border: 1px solid rgba(0, 0, 0, 0.151);
-  position: relative;
-  left: 5px;
-  margin-top: 0px;
-  background-color: rgba(0, 0, 0, 0.158);
-   width: 400px; 
-} */
 .content {
   display: flex;
   justify-content: space-evenly;

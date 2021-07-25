@@ -1,4 +1,4 @@
-// varaibles 
+// variables 
 var temp1 = document.querySelector("#temp1");
 var temp2 = document.querySelector("#temp2");
 var c1 = document.querySelector("#dropdown1 .C");
